@@ -5,12 +5,9 @@
 ### Backend (`/backend`)
 
 ```
-MONGO_URI=<your_mongo_uri>
-
-UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
-UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
-
+MONGO_URI=mongodb://127.0.0.1:27017/thinkboard
 NODE_ENV=development
+PORT=5001
 ```
 
 ## 🔧 Run the Backend
